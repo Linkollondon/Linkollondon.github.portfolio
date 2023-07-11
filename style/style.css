@@ -271,3 +271,13 @@ h6 {
     margin-bottom: 0;
     padding-bottom: 2%;
 }
+
+@media (max-width:500px) {
+    h3 {
+        font-size: 70%;
+    }
+
+    p {
+        font-size: 50%;
+    }
+}

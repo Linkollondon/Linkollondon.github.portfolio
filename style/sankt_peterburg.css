@@ -175,10 +175,15 @@ h2 {
     .video {
         width: 50%;
     }
+
 }
 
-@media(max-width: 768px) {
+@media(max-width: 1000px) {
     body {
         padding: 0;
+    }
+
+    main p {
+        width: 85%;
     }
 }
