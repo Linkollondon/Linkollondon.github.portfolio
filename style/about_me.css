@@ -90,9 +90,7 @@ p {
     font-size: 18px;
 }
 
-img {
-    margin-left: 25%;
-}
+
 
 footer {
     margin-top: 5%;
@@ -118,4 +116,12 @@ footer {
 h6 {
     margin-bottom: 0;
     padding-bottom: 2%;
+}
+
+@media (max-width:580px) {
+    img {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
 }

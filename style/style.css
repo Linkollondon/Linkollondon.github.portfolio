@@ -272,12 +272,12 @@ h6 {
     padding-bottom: 2%;
 }
 
-@media (max-width:500px) {
+@media (max-width:450px) {
     h3 {
-        font-size: 70%;
+        font-size: 85%;
     }
 
     p {
-        font-size: 50%;
+        font-size: 65%;
     }
 }
