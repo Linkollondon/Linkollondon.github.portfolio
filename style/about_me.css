@@ -1,0 +1,121 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+html {
+    padding-bottom: 0;
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    width: 100%;
+
+}
+
+main {
+    margin-bottom: 15%;
+}
+
+/*шапка*/
+
+
+
+.navigation {
+    display: grid;
+    grid-template-columns: 95px 1fr;
+    column-gap: 75px;
+    align-items: center;
+    width: 100%;
+
+}
+
+.navigation-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.navigation-link {
+    display: block;
+    padding: 15px;
+    margin: 5px;
+    color: black;
+    text-decoration: none;
+}
+
+.navigation-item a {
+    font-size: 120%;
+}
+
+.navigation-item:hover a {
+    color: #E93F72;
+    transition: 1s;
+
+}
+
+hr {
+    border: 1px black;
+    border-color: black;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+h1 {
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+}
+
+img {
+    margin-left: 25%;
+}
+
+footer {
+    margin-top: 5%;
+    background-color: #000000;
+    margin: 0;
+    padding-top: 3%;
+    color: #fff;
+    text-align: center;
+}
+
+.server a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 3%;
+
+    padding-left: 2%;
+}
+
+.server {
+    margin-bottom: 1%;
+}
+
+h6 {
+    margin-bottom: 0;
+    padding-bottom: 2%;
+}
